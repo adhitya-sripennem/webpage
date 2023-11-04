@@ -1,0 +1,55 @@
+.circle-menu li {
+  list-style: none;
+  display: inline;
+}
+
+.circle-menu {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    border: dashed 0px #cccccc;
+    border-radius: 50%;
+    margin: 5em auto 7em;
+}
+.circle-menu a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8em; height: 8em;
+  line-height:8em;
+  margin: -3.5em;
+  -moz-border-radius: 4em;
+  -webkit-border-radius: 4em;
+  border-radius: 4em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+}
+
+.circle-menu a.spiritual {background:#232323;opacity: 0.8;}
+.circle-menu a.occupational {background:#13576E;opacity: 0.8;}
+.circle-menu a.emotional {background:#263B61;opacity: 0.8;}
+.circle-menu a.environmental {background:#1B264D;opacity: 0.8;}
+.circle-menu a.intellectual {background:#000F2B;opacity: 0.8;}
+/*.circle-menu a.social {background:#932683;opacity: 0.6;}*/
+.circle-menu a.physical {background:#2F3939;opacity: 0.8;}
+
+.circle-menu a.spiritual:hover {background:#232323;opacity: 1.0;}
+.circle-menu a.occupational:hover {background:#13576E;opacity: 1.0;}
+.circle-menu a.emotional:hover {background:#263B61;opacity: 1.0;}
+.circle-menu a.environmental:hover {background:#1B264D;opacity: 1.0;}
+.circle-menu a.intellectual:hover {background:#000F2B;opacity: 1.0;}
+/*.circle-menu a.social:hover {background:#932683;opacity: 1.0;} */
+.circle-menu a.physical:hover {background:#2F3939;opacity: 1.0;}
+
+
+ /* 360/7= 51 roughly so for 7 elements rotate the element every 51deg. 12em translate is half the container */
+.circle-menu .spiritual { transform: rotate(45deg) translate(18em) rotate(-45deg); -webkit-transform: rotate(45deg) translate(18em) rotate(-45deg); -ms-transform: rotate(45deg) translate(18em) rotate(-45deg);}
+.circle-menu .occupational { transform: rotate(95deg) translate(18em) rotate(-95deg); -webkit-transform: rotate(95deg) translate(18em) rotate(-95deg); -ms-transform: rotate(95deg) translate(18em) rotate(-95deg);}
+.circle-menu .emotional { transform: rotate(145deg) translate(22em) rotate(-145deg); -webkit-transform: rotate(145deg) translate(22em) rotate(-145deg); -ms-transform: rotate(145deg) translate(22em) rotate(-145deg);}
+.circle-menu .environmental { transform: rotate(185deg) translate(22em) rotate(-185deg); -webkit-transform: rotate(185deg) translate(22em) rotate(-185deg); -ms-transform:rotate(185deg) translate(22em) rotate(-185deg);}
+.circle-menu .intellectual { transform: rotate(225deg) translate(21em) rotate(-225deg); -webkit-transform: rotate(225deg) translate(21em) rotate(-225deg); -ms-transform: rotate(225deg) translate(21em) rotate(-225eg);}
+/*.circle-menu .social { transform: rotate(306deg) translate(12em) rotate(-306deg); -webkit-transform: rotate(306deg) translate(12em) rotate(-306deg); -ms-transform: rotate(306deg) translate(12em) rotate(-306deg);} */
+.circle-menu .physical { transform: rotate(357deg) translate(18em) rotate(-357deg); -webkit-transform: rotate(357deg) translate(18em) rotate(-357deg); -ms-transform: rotate(357deg) translate(18em) rotate(-357deg);}
